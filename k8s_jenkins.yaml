@@ -61,7 +61,7 @@ metadata:
 spec:
   selector: 
     matchLabels:
-      name: jenkins
+      app: jenkins
   strategy:
     type: Recreate
   template:
